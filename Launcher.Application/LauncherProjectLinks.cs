@@ -1,0 +1,38 @@
+/*
+ * BlockHelm Launcher
+ * Copyright (C) 2026 Quan Zhou
+ *
+ * This program is free software: you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation, version 3.
+ *
+ * This program is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+ * GNU General Public License for more details.
+ *
+ * You should have received a copy of the GNU General Public License
+ * along with this program. If not, see <https://www.gnu.org/licenses/>.
+ *
+ * SPDX-License-Identifier: GPL-3.0-only
+ */
+
+namespace Launcher.Application;
+
+public static class LauncherProjectLinks
+{
+    public const string GitHubOwner = "ZX1314520-Dotcom";
+    public const string GitHubRepositoryName = "NaiGaiLauncher";
+    public const string GitHubRepositoryUrl = "https://github.com/" + GitHubOwner + "/" + GitHubRepositoryName;
+    public const string GitHubLicenseUrl = GitHubRepositoryUrl + "/blob/master/LICENSE";
+    public const string UserAgreementUrl = "https://docs.qq.com/markdown/DSmhwTHJ3WXVobHVY";
+    public const string MinecraftPurchaseUrl = "https://www.minecraft.net/store/minecraft-java-bedrock-edition-pc";
+    public const string GitHubFeatureSuggestionsUrl = GitHubRepositoryUrl + "/discussions";
+    public const string GitHubIssuesUrl = GitHubRepositoryUrl + "/issues";
+    public const string GitHubReleasesUrl = GitHubRepositoryUrl + "/releases";
+    public const string GitHubReleasesApiUrl = "https://api.github.com/repos/" + GitHubOwner + "/" + GitHubRepositoryName + "/releases";
+    public const string GitHubUserAgent = "NaiGaiLauncher";
+    public const string GiteeRepositoryUrl = GitHubRepositoryUrl;
+    public const string GiteeUpdateManifestUrlTemplate = GitHubRepositoryUrl + "/raw/update-manifests/update/{0}/latest.json";
+    public const string GitHubUpdateManifestUrlTemplate = "https://raw.githubusercontent.com/" + GitHubOwner + "/" + GitHubRepositoryName + "/update-manifests/update/{0}/latest.json";
+}
